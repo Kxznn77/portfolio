@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: lightgrey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -23,10 +29,20 @@ nav a{
     
 }
 
+nav a:hover{
+    color: yellow
+}
+
 section {
     background-color: white;
     padding: 20px;
-    margin:20px
+    margin:20px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+section:hover{
+    border: 2px solid black;
 }
 
 #inicio {
@@ -39,4 +55,13 @@ section {
 
 .cabecalho {
     text-align: center;
+}
+
+#foto{
+    border-radius: 100px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
 }
